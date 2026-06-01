@@ -9,6 +9,7 @@ class ArchaeologicalLoader:
                  batch_size=4, shuffle=True, test_split=0.2, 
                  val_enabled=False, val_split=0.1, num_workers=0):
         
+        self.batch_size = batch_size
         self.dataset = dataset
         self.train_transform = train_transform
         self.test_transform = test_transform  

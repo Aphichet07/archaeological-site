@@ -226,3 +226,6 @@ notebook/
 /data
 data/
 data/*
+/data/raw/*
+
+/notebook/lab/model_lab/*
