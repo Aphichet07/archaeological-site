@@ -218,9 +218,9 @@ __marimo__/
 .streamlit/secrets.toml
 
 
-/notebook/*
-/notebook
-notebook/
+# /notebook/*
+# /notebook
+# notebook/
 
 /data/*
 /data
